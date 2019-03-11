@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Activities.ProfileDetailActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/profileImage"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:background="@drawable/profexampl"
+        android:layout_height="200dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="250dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#fff"
+            android:id="@+id/studentname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textSize="25dp"
+            android:text="Nombre Alumno" />
+        <TextView
+            android:id="@+id/username"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="User Name" />
+
+        <TextView
+            android:id="@+id/studentDescription"
+            android:layout_width="300dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Descripcion breve del usuario is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/friendrequestbtn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="167dp"
+        android:background="@drawable/rounded_corner_button"
+        android:text="enviar solicitud de amistad" />
+</RelativeLayout>

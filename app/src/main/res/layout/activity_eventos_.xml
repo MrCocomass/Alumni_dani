@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A8797"
+    tools:context=".Activities.Eventos_Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="@string/EVENTOS"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="83dp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/eventTitleEditText"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        android:ems="10"
+        android:hint="..."
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:inputType="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/eventTitleEditText"
+        android:gravity="center"
+        android:text="@string/description"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+    <EditText
+        android:id="@+id/eventDescriptionEditText"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="203dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="..."
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:inputType="" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="145dp"
+        android:gravity="center"
+        android:text="@string/date"
+        android:textColor="@android:color/background_light"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true" />
+
+
+    <EditText
+        android:id="@+id/eventDateEditTxt"
+        android:layout_width="187dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="82dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="..."
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:inputType="" />
+
+    <Button
+        android:id="@+id/sednDateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"
+        android:gravity="center_vertical|center"
+        android:text="Send"
+        android:textColorLink="@android:color/background_light"
+        tools:textColor="@android:color/background_light" />
+
+
+
+
+</RelativeLayout>

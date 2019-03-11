@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alumnos.alumni">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Register_Activity" />
+        <activity
+            android:name=".Activities.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" />
+        <activity android:name=".Activities.DetailEventActivity" />
+        <activity
+            android:name=".Activities.CreateEventsActivity"
+            android:label="@string/title_activity_create_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activities.RecoverActivity" />
+        <activity android:name=".Activities.ViewCommentsActivity" />
+        <activity android:name=".Activities.EditProfileActivity"></activity>
+        <activity android:name=".Activities.ProfileDetailActivity"></activity>
+
+    </application>
+
+</manifest>

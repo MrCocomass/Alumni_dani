@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".Fragments.Profile_Fragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="290dp"
+        android:src="@drawable/background_color_circle_selector" />
+
+    <Button
+        android:id="@+id/editProfileBtn"
+        android:layout_width="60dp"
+        android:text="Edit"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:src="?attr/actionModeShareDrawable" />
+
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="#fff"
+        android:id="@+id/studentname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textSize="25dp"
+        android:text="Nombre Alumno" />
+
+    <TextView
+        android:id="@+id/username"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="User Name" />
+
+        <TextView
+            android:id="@+id/studentDescription"
+            android:layout_width="300dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Descripcion breve del usuario is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard"
+            android:textColor="#fff"
+            android:textSize="18dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3295FF">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/studentPhone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:text="correodelcev@cev.com"
+                    android:textColor="#ffff"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="40dp"
+                    android:src="@android:drawable/ic_dialog_email" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/studentmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="75dp"
+                    android:text="correodelcev@cev.com"
+                    android:textColor="#ffff"
+                    android:textSize="17dp" />
+
+                <ImageView
+                    android:id="@+id/studentdescription"
+                    android:layout_width="wrap_content"
+                    android:layout_height="19dp"
+                    android:layout_marginLeft="40dp"
+                    android:src="@android:drawable/ic_dialog_email" />
+
+                <Button
+                    android:id="@+id/logoutbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:text="Cerrar Sesion" />
+            </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="130dp">
+
+    </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

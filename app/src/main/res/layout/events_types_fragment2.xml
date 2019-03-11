@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CreateEventsFragments.EventsTypesFragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:background="@drawable/cerrar"
+        />
+
+    <TextView
+        android:id="@+id/whatTypeEvent"
+        android:layout_width="307dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="33dp"
+        android:text="Indica los grupos que deben recibir tu evento"
+        android:textAlignment="center"
+        android:textColor="#009EAD"
+        android:textSize="20dp" />
+
+
+    <RadioButton
+        android:id="@+id/radioButtonProfesores"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="40dp"
+        />
+
+    <TextView
+        android:id="@+id/profesoresText"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-29dp"
+        android:text="Profesores"
+        android:textSize="18dp"
+        android:layout_marginLeft="10dp"
+
+        android:textAlignment="center"
+        android:textColor="#009EAD" />
+
+
+    <RadioButton
+        android:id="@+id/radioButtonCoordinadores"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/coordinadoresText"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-29dp"
+        android:text="Coordinadores"
+        android:textSize="18dp"
+        android:layout_marginLeft="22dp"
+
+        android:textAlignment="center"
+        android:textColor="#009EAD" />
+
+    <RadioButton
+        android:id="@+id/radioButtonAlumnos"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/alumnosText"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-29dp"
+        android:text="Alumnos"
+        android:textSize="18dp"
+        android:layout_marginLeft="0dp"
+
+        android:textAlignment="center"
+        android:textColor="#009EAD" />
+
+    <RadioButton
+        android:id="@+id/radioButtonExAlumnos"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <TextView
+        android:id="@+id/exAlumnosText"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-29dp"
+        android:text="Ex-alumnos"
+        android:textSize="18dp"
+        android:layout_marginLeft="9dp"
+
+        android:textAlignment="center"
+        android:textColor="#009EAD" />
+
+
+
+
+</RadioGroup>

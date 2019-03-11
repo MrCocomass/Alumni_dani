@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".Fragments.CreateEventsFragments.EventsFragment5">
+
+
+    <Button
+        android:id="@+id/botonAñadirImagenEvent"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:background="#009EAD"
+        android:text="Añadir"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:textColor="#ffff"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/cerrar"
+
+        />
+
+
+    <TextView
+        android:id="@+id/descriptionEvent"
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="80dp"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="55dp"
+        android:text="¿Quieres añadir un sitio Web?"
+        android:textColor="#009EAD" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="250dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/mundo"
+        android:contentDescription="@string/todo" />
+
+</FrameLayout>

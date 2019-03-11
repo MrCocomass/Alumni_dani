@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CreateEventsFragments.EventsTypesFragment6">
+
+    <Button
+        android:id="@+id/botonBuscarLocalizacionEvent"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="#009EAD"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="160dp"
+        android:text="Buscar"
+        android:textColor="#ffff"
+        android:textAllCaps="false"
+        tools:ignore="RtlCompat" />
+
+
+    <Button
+        android:id="@+id/botonCrearEvento"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:background="#009EAD"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="150dp"
+        android:text="Crear Evento"
+        android:textColor="#ffff"
+        android:textAllCaps="false"
+        tools:ignore="RtlCompat" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="380dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/cerrar"
+
+        />
+
+    <EditText
+        android:id="@+id/descriptionEvent"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="240dp"
+        android:hint="Tambien puedes añadir una localización"
+        android:textAlignment="center"
+        android:textColor="#009EAD" />
+
+    <EditText
+        android:id="@+id/descriptionEditText"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|top"
+        android:layout_marginLeft="75dp"
+        android:layout_marginTop="1000dp"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageEvent"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/localizacion"
+        android:contentDescription="@string/todo"
+        />
+
+</RelativeLayout>

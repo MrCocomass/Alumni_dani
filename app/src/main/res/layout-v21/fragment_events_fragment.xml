@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#009EAD"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CreateEventsFragments.Events_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:id="@+id/searchFilter"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:background="@color/colordarkRed"
+            android:id="@+id/openTypes"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/eventsListView"
+        android:layout_width="match_parent"
+        android:layout_height="604dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="50dp" />
+</LinearLayout>
+
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src="@mipmap/ic_add_icon"
+        android:backgroundTint="#009EAD"
+        android:layout_margin="70dp" />
+
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="421dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="60dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/typesView">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter by type:"
+            android:textAlignment="center"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="20dp"
+            android:text="Todos"
+            android:id="@+id/allTypes"
+            android:textColor="#009EAD" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:id="@+id/eventTypes"
+            android:text="Eventos"
+
+            android:textColor="#009EAD" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Ofertas de trabajo"
+            android:layout_marginTop="10dp"
+            android:id="@+id/offerTypes"
+            android:textColor="#009EAD" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Notificaciones"
+            android:layout_marginTop="10dp"
+            android:id="@+id/notifTypes"
+            android:textColor="#009EAD" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Noticias"
+            android:layout_marginTop="10dp"
+            android:id="@+id/newsTypes"
+            android:textColor="#009EAD" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:text="Cancelar"
+            android:layout_marginTop="10dp"
+            android:id="@+id/closeTypes"
+
+            android:textColor="@color/darkRed" />
+
+    </LinearLayout>
+
+</FrameLayout>
